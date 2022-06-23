@@ -9,7 +9,7 @@ This is the code repository for [Unreal Engine 5 Character Creation, Animation a
 ## What is this book about?
 Flutter is a UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase. With Flutter, you can write your code once and run it anywhere using a single codebase to target multiple platforms. This book is a comprehensive, project-based guide for new and emerging Flutter developers that will help empower you to build bulletproof applications.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Create, customize, and use a MetaHuman in a cinematic scene in UE5
 * Model and texture custom 3D assets for your movie using Blender and Quixel Mixer
 * Prepare 3D assets for animation and import them into UE5
