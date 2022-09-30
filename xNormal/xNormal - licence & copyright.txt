@@ -1,0 +1,823 @@
+*********************************************
+xNormal's main license & copyright :
+
+--- begin ---
+
+Copyright (c) 2005-2017 S.Orgaz
+
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use, copy and/or redistribute this software for any purpose, including commercial applications, subject to the following restrictions:
+
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated, but is not required.
+
+2. You can't reverse-engineer or modify in any way the existing files of this software unless you are(or you work for) the legal owner of the parts involved. 
+
+3. You can't sell, resell, rent, lease or lend this software.
+
+4. This software may use plug-ins and/or libraries govered by their own licenses. Therefore, this license should be considered only partial and you should take a look and review in depth all the licenses involved.
+
+5. The Copyright notice above and this license must be included in any redistribution of this software.
+
+
+--- end ---
+
+*********************************************
+Portions related to LUA ( which is used in the xNormal's 3D viewer )
+
+--- begin ---
+
+Copyright © 1994–2017 Lua.org, PUC-Rio.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+--- end ---
+
+
+
+*********************************************
+Portions related to Zlib ( which is used by several libraries in xNormal to compress/decompress data )
+
+--- begin ---
+
+Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+--- end ---
+
+*********************************************
+Portions related to Ogre3D ( used in the xNormal's Ogre mesh importer )
+
+--- begin ---
+
+Copyright (c) 2000-2014 Torus Knot Software Ltd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--- end ---
+
+*********************************************
+Portions related to Morten S. Mikkelsen's tangent space/derivative calculation ( used in the xNormal's mikktspace tangent basis calculator plug-in and internally for several computations )
+
+--- begin ---
+
+Copyright (C) 2011 by Morten S. Mikkelsen.
+   
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+ 
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+--- end ---
+
+*********************************************
+Portions related to the cone-step mapping algorithm by Jonathan "lonesock" Dummer ( used in xNormal''s tools )
+
+--- begin ---
+
+Copyright (C) 2006 Jonathan "lonesock" Dummer.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+--- end ---
+*********************************************
+Portions related to OpenEXR ( used in the xNormal's EXR image importer/exporter plug-ins )
+
+--- begin ---
+
+Copyright (c) 2006, Industrial Light & Magic, a division of Lucasfilm Entertainment Company Ltd. Portions contributed and copyright held by others as indicated. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+* Neither the name of Industrial Light & Magic nor the names of any other contributors to this software may be used to endorse or promote products derived from this software without specific priorwritten permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--- end ---
+
+*********************************************
+Portions related to the Independent JPEG Group ( IJG )'s libjpeg ( which is used in xNormal's JPG image importer plug-in and internally by some libs ) and, therefore, "this software is based in part on the work of the Independent JPEG Group".
+
+--- begin ---
+
+The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose.  This software is provided "AS IS", and you, its user, assume the entire risk as to its quality and accuracy.
+
+This software is copyright (C) 1991-2016, Thomas G. Lane, Guido Vollbeding.
+All Rights Reserved except as specified below.
+
+Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions:
+
+(1) If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation.
+
+(2) If only executable code is distributed, then the accompanying documentation must state that "this software is based in part on the work of the Independent JPEG Group".
+
+(3) Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.
+
+These conditions apply to any software derived from or based on the IJG code, not just to the unmodified library. If you use our work, you ought to acknowledge us.
+
+Permission is NOT granted for the use of any IJG author's name or company name in advertising or publicity relating to this software or products derived from it. This software may be referred to only as "the Independent JPEG Group's software".
+
+We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor.
+
+--- end ---
+
+*********************************************
+Portions related to libPNG ( which is used in xNormal's PNG image importer/exporter plug-ins as well as by several libraries internally ).
+
+--- begin ---
+
+This copy of the libpng notices is provided for your convenience.  In case of any discrepancy between this copy and the notices in the file png.h that is included in the libpng distribution, the latter shall prevail.
+
+COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
+
+If you modify libpng you may insert additional notices immediately following this sentence.
+
+This code is released under the libpng license.
+
+libpng versions 1.0.7, July 1, 2000 through 1.6.28, January 5, 2017 are Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson, are derived from libpng-1.0.6, and are distributed according to the same disclaimer and license as libpng-1.0.6 with the following individuals added to the list of Contributing Authors:
+
+Simon-Pierre Cadieux
+Eric S. Raymond
+Mans Rullgard
+Cosmin Truta
+Gilles Vollant
+James Yu
+Mandar Sahastrabuddhe
+
+and with the following additions to the disclaimer:
+
+   There is no warranty against interference with your enjoyment of the library or against infringement. There is no warranty that our efforts or the library will fulfill any of your particular purposes or needs. This library is provided with all faults, and the entire risk of satisfactory quality, performance, accuracy, and effort is withthe user.
+
+Some files in the "contrib" directory and some configure-generated files that are distributed with libpng have other copyright owners and are released under other open source licenses.
+
+libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are Copyright (c) 1998-2000 Glenn Randers-Pehrson, are derived from libpng-0.96, and are distributed according to the same disclaimer and license as libpng-0.96, with the following individuals added to the list of Contributing Authors:
+
+Tom Lane
+Glenn Randers-Pehrson
+Willem van Schaik
+
+libpng versions 0.89, June 1996, through 0.96, May 1997, are Copyright (c) 1996-1997 Andreas Dilger, are derived from libpng-0.88, and are distributed according to the same disclaimer and license as libpng-0.88, with the following individuals added to the list of Contributing Authors:
+
+John Bowler
+Kevin Bracey
+Sam Bushell
+Magnus Holmgren
+Greg Roelofs
+Tom Tanner
+
+Some files in the "scripts" directory have other copyright owners but are released under this license.
+
+libpng versions 0.5, May 1995, through 0.88, January 1996, are Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+
+For the purposes of this copyright and license, "Contributing Authors" is defined as the following set of individuals:
+
+Andreas Dilger
+Dave Martindale
+Guy Eric Schalnat
+Paul Schmidt
+Tim Wegner
+
+The PNG Reference Library is supplied "AS IS".  The Contributing Authors and Group 42, Inc. disclaim all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose.  The Contributing Authors and Group 42, Inc. assume no liability for direct, indirect, incidental, special, exemplary, or consequential damages, which may result from the use of the PNG Reference Library, even if advised of the possibility of such damage.
+
+Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee, subject to the following restrictions:
+
+1. The origin of this source code must not be misrepresented.
+
+2. Altered versions must be plainly marked as such and must not be misrepresented as being the original source.
+
+3. This Copyright notice may not be removed or altered from any source or altered source distribution.
+
+The Contributing Authors and Group 42, Inc. specifically permit, without fee, and encourage the use of this source code as a component to supporting the PNG file format in commercial products.  If you use this source code in a product, acknowledgment is not required but would be appreciated.
+
+END OF COPYRIGHT NOTICE, DISCLAIMER, and LICENSE.
+
+TRADEMARK:
+The name "libpng" has not been registered by the Copyright owner as a trademark in any jurisdiction.  However, because libpng has been distributed and maintained world-wide, continually since 1995, the Copyright owner claims "common-law trademark protection" in any jurisdiction where common-law trademark is recognized.
+
+OSI CERTIFICATION:
+Libpng is OSI Certified Open Source Software.  OSI Certified Open Source is a certification mark of the Open Source Initiative. OSI has not addressed the additional disclaimers inserted at version 1.0.7.
+
+EXPORT CONTROL:
+The Copyright owner believes that the Export Control Classification Number (ECCN) for libpng is EAR99, which means not subject to export controls or International Traffic in Arms Regulations (ITAR) because it is open source, publicly available software, that does not contain any encryption software.  See the EAR, paragraphs 734.3(b)(3) and 734.7(b).
+
+Glenn Randers-Pehrson
+glennrp at users.sourceforge.net
+January 5, 2017
+
+--- end ---
+
+*********************************************
+Portions related to libXML2 ( which is used in xNormal to read/write/parse .xml config files ).
+
+--- begin ---
+
+Except where otherwise noted in the source code (e.g. the files hash.c, list.c and the trio files, which are covered by a similar licence but with different Copyright notices) all the files are:
+
+Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is fur-nished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT- NESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--- end ---
+
+*********************************************
+Portions related to PLY ( which is used in xNormal's PLY mesh importer plug-in ).
+
+--- begin ---
+
+Copyright (c) 1998 Greg Turk
+Copyright (c) 1998 Georgia Institute of Technology.  All rights reserved.
+
+Permission to use, copy, modify and distribute this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice and this permission notice appear in all copies of this software and that you do not sell the software.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--- end ---
+
+*********************************************
+Portions related to libTIFF ( which is used in xNormal's TIFF image importer/exporter and internally by other libs ).
+
+--- begin ---
+
+Copyright (c) 1988-1997 Sam Leffler
+Copyright (c) 1991-1997 Silicon Graphics, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.
+
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+--- end ---
+
+*********************************************
+Portions related to Growl gntp-send ( which is used in xNormal's executable to throw notifications ).
+
+--- begin ---
+
+Copyright (c) 2009-2010 Yasuhiro Matsumoto. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--- end ---
+
+*********************************************
+Portions related to Autodesk's FBX ( which is used in the xNormal's FBX mesh importer plug-in ) and 3dsmax / Maya 
+
+--- begin ---
+
+This software contains Autodesk® FBX® code developed by Autodesk, Inc. Copyright 2017 Autodesk, Inc. All rights, reserved. Such code is provided “as is” and Autodesk, Inc. disclaims any and all warranties, whether express or implied, including without limitation the implied warranties of merchantability, fitness for a particular purpose or non-infringement of third party rights. In no event shall Autodesk, Inc. be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of such code.
+
+Autodesk and FBX are registered trademarks or trademarks of Autodesk, Inc., in the USA and/or other countries. All other brand names, product names, or trade-marks belong to their respective holders.
+
+--- end ---
+
+
+--- begin ---
+
+Autodesk® 3ds Max® © 2017 Autodesk, Inc.  All rights reserved.
+
+Autodesk, the Autodesk logo, AutoCAD, Buzzsaw, DWF, DWG, DWG TrueView, DXF, FBX, Freewheel, Heidi, HumanIK, Hoops, RealDWG, ReCap, Revit, ShowMotion, SteeringWheels, T-Splines, ViewCube and 3ds Max are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries.
+
+--- end ---
+
+--- begin ---
+
+Autodesk® Maya® © 2017 Autodesk, Inc. All rights reserved.
+
+Autodesk, the Autodesk logo, FBX, Maya and T-Splines are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries.
+
+--- end ---
+
+*********************************************
+Portions related to Adobe's Photoshop ( involving xNormal's tool plug-ins for Photoshop )
+
+--- begin ---
+
+Copyright 1990-2017 Adobe Systems Incorporated and its licensors. All rights reserved.
+
+Adobe, the Adobe logo, and Photoshop are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.
+
+--- end ---
+
+*********************************************
+Portsions related to Microsfot's Visual Studio 2013's C++ runtime ( which is used in xNormal executable and its plug-ins )
+
+--- begin ---
+
+MICROSOFT SOFTWARE LICENSE TERMS
+MICROSOFT VISUAL C++ REDISTRIBUTABLE FOR VISUAL STUDIO 2013 
+These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. Please read them. They apply to the software named above, which includes the media on which you received it, if any. The terms also apply to any Microsoft
+·	updates,
+·	supplements,
+·	Internet-based services, and
+·	support services
+for this software, unless other terms accompany those items. If so, those terms apply.
+BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE. 
+IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE PERPETUAL RIGHTS BELOW.
+1.	INSTALLATION AND USE RIGHTS. You may install and use any number of copies of the software on your devices.
+2.	SCOPE OF LICENSE. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may not
+·	disclose the results of any benchmark tests of the software to any third party without Microsoft’s prior written approval;
+·	work around any technical limitations in the software;
+·	reverse engineer, decompile or disassemble the software, except and only to the extent that applicable law expressly permits, despite this limitation;
+·	make more copies of the software than specified in this agreement or allowed by applicable law, despite this limitation;
+·	publish the software for others to copy;
+·	rent, lease or lend the software;
+·	transfer the software or this agreement to any third party; or
+·	use the software for commercial software hosting services.
+3.	BACKUP COPY. You may make one backup copy of the software. You may use it only to reinstall the software.
+4.	DOCUMENTATION. Any person that has valid access to your computer or internal network may copy and use the documentation for your internal, reference purposes.
+5.	EXPORT RESTRICTIONS. The software is subject to United States export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the software. These laws include restrictions on destinations, end users and end use. For additional information, see www.microsoft.com/exporting <file:///C:/Programacion1297tj/Bin/xNormal/docs/www.microsoft.com/exporting>.
+6.	SUPPORT SERVICES. Because this software is "as is," we may not provide support services for it.
+7.	ENTIRE AGREEMENT. This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.
+8.	APPLICABLE LAW.
+a)	United States. If you acquired the software in the United States, Washington state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. The laws of the state where you live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort.
+b)	Outside the United States. If you acquired the software in any other country, the laws of that country apply.
+9.	LEGAL EFFECT. This agreement describes certain legal rights. You may have other rights under the laws of your country. You may also have rights with respect to the party from whom you acquired the software. This agreement does not change your rights under the laws of your country if the laws of your country do not permit it to do so.
+10.	DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS-IS.” YOU BEAR THE RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES OR CONDITIONS. YOU MAY HAVE ADDITIONAL CONSUMER RIGHTS OR STATUTORY GUARANTEES UNDER YOUR LOCAL LAWS WHICH THIS AGREEMENT CANNOT CHANGE. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+FOR AUSTRALIA - YOU HAVE STATUTORY GUARANTEES UNDER THE AUSTRALIAN CONSUMER LAW AND NOTHING IN THESE TERMS IS INTENDED TO AFFECT THOSE RIGHTS.
+11.	LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES. YOU CAN RECOVER FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. $5.00. YOU CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.
+This limitation applies to
+·	anything related to the software, services, content (including code) on third party Internet sites, or third party programs; and
+·	claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.
+It also applies even if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your country may not allow the exclusion or limitation of incidental, consequential or other damages.
+
+--- end ---
+
+*********************************************
+Portions related to Microsoft's .NET Framework runtime EULA ( which is used in the xNormal's executable and installer )
+
+--- begin ---
+Microsoft .NET Framework Redistributable EULA
+IMPORTANT: READ CAREFULLY—These Microsoft Corporation ("Microsoft") operating system components, including any "online" or electronic documentation ("OS Components") are subject to the terms and conditions of the agreement under which you have licensed the applicable Microsoft operating system product ("OS Product") described below (each an "End User License Agreement" or "EULA") and the terms and conditions of this Supplemental EULA. BY INSTALLING, COPYING OR OTHERWISE USING THE OS COMPONENTS, YOU AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THE APPLICABLE OS PRODUCT EULA AND THIS SUPPLEMENTAL EULA. IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, DO NOT INSTALL, COPY OR USE THE OS COMPONENTS.
+NOTE: IF YOU DO NOT HAVE A VALID EULA FOR ANY "OS PRODUCT" (MICROSOFT WINDOWS 98, WINDOWS ME, WINDOWS NT 4.0 (DESKTOP EDITION), WINDOWS 2000 OPERATING SYSTEM, WINDOWS XP PROFESSIONAL AND/OR WINDOWS XP HOME EDITION), YOU ARE NOT AUTHORIZED TO INSTALL, COPY OR OTHERWISE USE THE OS COMPONENTS AND YOU HAVE NO RIGHTS UNDER THIS SUPPLEMENTAL EULA.
+Capitalized terms used in this Supplemental EULA and not otherwise defined herein shall have the meanings assigned to them in the applicable OS Product EULA.
+General. The OS Components are provided to you by Microsoft to update, supplement, or replace existing functionality of the applicable OS Product Microsoft grants you a license to use the OS Components under the terms and conditions of the OS Product EULA for the applicable OS Product (which are hereby incorporated by reference) and the terms and conditions set forth in this Supplemental EULA, provided that you comply with all such terms and conditions. To the extent that any terms in this Supplemental EULA conflict with terms in the applicable OS Product EULA, the terms of this Supplemental EULA control solely with respect to the OS Components.
+Additional Rights and Limitations.
+*If you have multiple validly licensed copies of the applicable OS Product(s), you may reproduce, install and use one copy of the OS Components as part of such applicable OS Product(s) on all of your computers running validly licensed copies of the OS Product(s) provided that you use such additional copies of the OS Components in accordance with the terms and conditions above.
+*You may conduct internal benchmark testing of the .NET Framework component of the OS Components (".NET Component"). You may disclose the results of any benchmark test of the .NET Component, provided that you comply with the following terms: (1) you must disclose all the information necessary for replication of the tests, including complete and accurate details of your benchmark testing methodology, the test scripts/cases, tuning parameters applied, hardware and software platforms tested, the name and version number of any third party testing tool used to conduct the testing, and complete source code for the benchmark suite/harness that is developed by or for you and used to test both the .NET Component and the competing implementation(s); (2) you must disclose the date(s) that you conducted the benchmark tests, along with specific version information for all Microsoft software products tested, including the .NET Component; (3) your benchmark testing was performed using all performance tuning and best practice guidance set forth in the product documentation and/or on Microsoft's support web sites, and uses the latest updates, patches and fixes available for the .NET Component and the relevant Microsoft operating system; (4) it shall be sufficient if you make the disclosures provided for above at a publicly available location such as a website, so long as every public disclosure of the results of your benchmark test expressly identifies the public site containing all required disclosures; and (5) nothing in this provision shall be deemed to waive any other right that you may have to conduct benchmark testing. The foregoing obligations shall not apply to your disclosure of the results of any customized benchmark test of the .NET Component, whereby such disclosure is made under confidentiality in conjunction with a bid request by a prospective customer, such customer's application(s) are specifically tested and the results are only disclosed to such specific customer. Notwithstanding any other agreement you may have with Microsoft, if you disclose such benchmark test results, Microsoft shall have the right to disclose the results of benchmark tests it conducts of your products that compete with the .NET Component, provided it complies with the same conditions above.
+*Microsoft retains all right, title and interest in and to the OS Components. All rights not expressly granted are reserved by Microsoft.
+IF THE APPLICABLE OS PRODUCT WAS LICENSED TO YOU BY MICROSOFT OR ANY OF ITS WHOLLY OWNED SUBSIDIARIES, THE LIMITED WARRANTY (IF ANY) INCLUDED IN THE APPLICABLE OS PRODUCT EULA APPLIES TO THE OS COMPONENTS PROVIDED THE OS COMPONENTS HAVE BEEN LICENSED BY YOU WITHIN THE TERM OF THE LIMITED WARRANTY IN THE APPLICABLE OS PRODUCT EULA. HOWEVER, THIS SUPPLEMENTAL EULA DOES NOT EXTEND THE TIME PERIOD FOR WHICH THE LIMITED WARRANTY IS PROVIDED.
+IF THE APPLICABLE OS PRODUCT WAS LICENSED TO YOU BY AN ENTITY OTHER THAN MICROSOFT OR ANY OF ITS WHOLLY OWNED SUBSIDIARIES, MICROSOFT DISCLAIMS ALL WARRANTIES WITH RESPECT TO THE OS COMPONENTS AS FOLLOWS:
+DISCLAIMER OF WARRANTIES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MICROSOFT AND ITS SUPPLIERS PROVIDE TO YOU THE OS COMPONENTS, AND ANY (IF ANY) SUPPORT SERVICES RELATED TO THE OS COMPONENTS ("SUPPORT SERVICES") AS IS AND WITH ALL FAULTS; and Microsoft and its suppliers hereby disclaim with respect to THE os COMPONENTS AND SUPPORT SERVICES all warranties and conditions, whether express, implied or statutory, including, but not limited to, any (if any) warranties or conditions of OR RELATED TO: TITLE, NON-INFRINGEMENT, merchantability, fitness for a particular purpose, lack of viruses, accuracy or completeness of responses, results, lack of negligence or lack of workmanlike effort, QUIET ENJOYMENT, QUIET POSSESSION, AND CORRESPONDENCE TO DESCRIPTION. The entire risk arising out of use or performance of the OS Components AND ANY SUPPORT SERVICES remains with you.
+EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES. To the maximum extent permitted by applicable law, in no event shall Microsoft or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for: loss of profits, LOSS OF confidential or other information, business interruption, personal injury, loss of privacy, failure to meet any duty (including of good faith or of reasonable care), negligence, and any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use the OS Components OR THE SUPPORT SERVICES, OR the provision of or failure to provide Support Services, or otherwise under or in connection with any provision of this Supplemental EULA, even if Microsoft or any supplier has been advised of the possibility of such damages.
+LIMITATION OF LIABILITY AND REMEDIES. NOTWITHSTANDING ANY DAMAGES THAT YOU MIGHT INCUR FOR ANY REASON WHATSOEVER (INCLUDING, WITHOUT LIMITATION, ALL DAMAGES REFERENCED ABOVE AND ALL DIRECT OR GENERAL DAMAGES), THE ENTIRE LIABILITY OF MICROSOFT AND ANY OF ITS SUPPLIERS UNDER ANY PROVISION OF THIS SUPPLEMENTAL EULA AND YOUR EXCLUSIVE REMEDY FOR ALL OF THE FOREGOING SHALL BE LIMITED TO THE GREATER OF THE AMOUNT ACTUALLY PAID BY YOU FOR THE OS COMPONENTS OR U.S.$5.00. THE FOREGOING LIMITATIONS, EXCLUSIONS AND DISCLAIMERS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EVEN IF ANY REMEDY FAILS ITS ESSENTIAL PURPOSE.
+ADDENDUM:
+MICROSOFT .NET FRAMEWORK 4 FOR MICROSOFT WINDOWS OPERATING SYSTEM 
+MICROSOFT .NET FRAMEWORK 4 CLIENT PROFILE FOR MICROSOFT WINDOWS OPERATING SYSTEM AND ASSOCIATED LANGUAGE PACKS
+Microsoft Corporation (or based on where you live, one of its affiliates) licenses this supplement to you.  If you are licensed to use Microsoft Windows operating system software (for which this supplement is applicable) (the “software”), you may use this supplement.  You may not use it if you do not have a license for the software.  You may use a copy of this supplement with each validly licensed copy of the software.
+The following license terms describe additional use terms for this supplement.  These terms and the license terms for the software apply to your use of the supplement.  If there is a conflict, these supplemental license terms apply.
+By using this supplement, you accept these terms.  If you do not accept them, do not use this supplement.
+If you comply with these license terms, you have the rights below.
+
+1. SUPPORT SERVICES FOR SUPPLEMENT.  Microsoft provides support services for this software as described at www.support.microsoft.com/common/international.aspx <http://www.support.microsoft.com/common/international.aspx>.
+
+2. MICROSOFT .NET FRAMEWORK BENCHMARK TESTING. The software includes one or more components of the .NET Framework (.NET Components).  You may conduct internal benchmark testing of those components. You may disclose the results of any benchmark test of those components, provided that you comply with the conditions set forth at <http://go.microsoft.com/fwlink/?LinkID=66406&clcid=0x409>
+
+Notwithstanding any other agreement you may have with Microsoft, if you disclose such benchmark test results, Microsoft shall have the right to disclose the results of benchmark tests it conducts of your products that compete with the applicable .NET Component, provided it complies with the same conditions set forth at <http://go.microsoft.com/fwlink/?LinkID=66406&clcid=0x409>
+
+
+--- end ---
+
+*********************************************
+Portions related to NVIDIA's Optix ( which is used in the xNormal's Optix renderer plug-in )
+
+--- begin ---
+
+SOFTWARE DEVELOPER KITS, SAMPLES AND TOOLS LICENSE AGREEMENT
+
+IMPORTANT – READ BEFORE DOWNLOADING, INSTALLING, COPYING OR USING THE LICENSED SOFTWARE
+
+READ CAREFULLY: This Software Developer Kits, Samples and Tools License Agreement ("Agreement”), made and entered into as of the time and date of click through action (“Effective Date”), is a legal agreement between you and NVIDIA Corporation ("NVIDIA") and governs the use of the following NVIDIA deliverables to the extent provided to you under this Agreement: API’s, sample source code, data sets and assets (examples include images, textures, models, scenes, videos, native API input/output files), header files, binary software and/or documentation (collectively, "Licensed Software"). By downloading, installing, copying, or otherwise using the Licensed Software, you agree to be bound by the terms of this Agreement. If you do NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, COPY OR USE THE NVIDIA LICENSED SOFTWARE. IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE LEGAL AUTHORITY TO BIND THE ENTITY TO THIS AGREEMENT, IN WHICH CASE “YOU” WILL MEAN THE ENTITY YOU REPRESENT. IF YOU DON’T HAVE SUCH AUTHORITY, OR IF YOU DON’T ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT, THEN NVIDIA IS UNWILLING TO LICENSE THE LICENSED SOFTWARE TO YOU, AND YOU MAY NOT DOWNLOAD, INSTALL, COPY OR USE IT.
+
+1. LICENSE.
+
+1.1 License Grant. Subject to the terms of this Agreement, NVIDIA hereby grants you a nonexclusive, non-transferable, worldwide, revocable, limited, royalty-free, fully paid-up license to during the term of this Agreement:
+
+(i) install, use and reproduce the Licensed Software delivered by NVIDIA plus make modifications and create derivative works of the sample source code software delivered by NVIDIA, provided that the software is executed only in hardware products as specified by NVIDIA in the accompanying documentation (such as release notes) as supported, to develop, test and service your products (each, a “Customer Product”) that are interoperable with supported hardware products. If the NVIDIA documentation is silent, the supported hardware consists of certain NVIDIA GPUs; and
+
+(ii) sub-license and distribute in binary format the API library software and header files as delivered by NVIDIA and sample source code as delivered by NVIDIA or as modified by you, all as incorporated into a Customer Product for use by your recipients only in the hardware products specified by NVIDIA as supported, provided that: (a) all such distributions by you or your distribution channels are consistent with the terms of this Agreement; and (b) you must enter into enforceable agreements with your recipients that binds them to terms that are consistent with the terms set forth in this Agreement for their use of the software binaries, including (without limitation) terms relating to the license grant and license restrictions, confidentiality and protection of NVIDIA’s intellectual property rights in and to the software you distributed. You are liable for the distribution and the use of distributed software if you failed to comply or enforce the distribution requirements of this Agreement. You agree to notify NVIDIA in writing of any known or suspected use or distribution of the Licensed Software that are not in compliance with the terms of this Agreement.
+
+1.2 Enterprise and Contractor Usage. Under this Agreement you may allow (i) your Enterprise employees, and (ii) individuals who work primarily for your Enterprise on a contractor basis and from your secure network (each a "Contractor") to access and use the Licensed Software pursuant to the terms in Section 1 solely to perform work on your behalf, provided further that with respect to Contractors: (i) you obtain a written agreement from the Contractor which contains terms and obligations with respect to access to or use of Licensed Software no less protective of NVIDIA than those set forth in this Agreement, and (ii) such Contractor’s access and use expressly excludes any sublicensing or distribution rights for the Licensed Software. You are responsible for the compliance with the terms and conditions of this Agreement by your Enterprise and Contractors. Any act or omission that if committed by you would constitute a breach of this Agreement shall be deemed to constitute a breach of this Agreement if committed by your Enterprise or Contractors. “Enterprise” means you or any company or legal entity for which you accepted the terms of this Agreement, and their subsidiaries of which your company or legal entity owns more than fifty percent (50%) of the issued and outstanding equity.
+
+1.3 No Support. NVIDIA is under no obligation to provide support for the Licensed Software or to provide any error corrections or updates to the Licensed Software under this Agreement.
+
+
+2. LIMITATIONS.
+
+2.1 License Restrictions. Except as expressly authorized in this Agreement, you agree that you will not (nor allow third parties to): (i) copy and use software that was licensed to you for use in one or more devices in other unlicensed devices (provided that copies solely for backup purposes are allowed); (ii) reverse engineer, decompile, disassemble (except to the extent applicable laws specifically requires that such activities be permitted) or attempt to derive the source code, underlying ideas, algorithm or structure of software provided to you in object code form; (iii) sell, transfer, assign, distribute, rent, loan, lease, sublicense or otherwise make available the Licensed Software or its functionality to third parties (a) as an application services provider or service bureau, (b) by operating hosted/virtual system environments, (c) by hosting, time sharing or providing any other type of services, or (d) otherwise by means of the internet; (iv) modify, translate or otherwise create any modifications or derivative works of any of the Licensed Software; (v) remove, alter, cover or obscure any proprietary notice that appears on or with the Licensed Software or any copies thereof; (vi) use the Licensed Software, or allow its use, transfer, transmission or export in violation of any export control laws or regulations administered by the United States government; (vii) distribute, permit access to, or sublicense the Licensed Software as a stand-alone product; (viii) bypass, disable, circumvent or remove any form of copy protection, encryption, security or digital rights management or authentication mechanism used by NVIDIA in connection with the Licensed Software, or use the Licensed Software together with any authorization code, serial number, or other copy protection device not supplied by NVIDIA directly or through an authorized reseller; (ix) use the Licensed Software for the purpose of developing competing products or technologies or assisting a third party in such activities; (x) distribute any modification you make to software under or by reference to the same name as used by NVIDIA; or (xi) use the Licensed Software in any manner that would cause the Licensed Software to become subject to an Open Source License. Nothing in this Agreement shall be construed to give you a right to use, or otherwise obtain access to, any source code from which the software or any portion thereof is compiled or interpreted. “Open Source License” includes, without limitation, a software license that requires as a condition of use, modification, and/or distribution of such software that the software be (x) disclosed or distributed in source code form; (y) be licensed for the purpose of making derivative works; or (z) be redistributable at no charge.
+
+2.2 Third Party License Obligations. You acknowledge and agree that the Licensed Software may include or incorporate third party technology (collectively “Third Party Components”), which is provided for use in or with the software and not otherwise used separately. If the Licensed Software includes or incorporates Third Party Components, then the third-party pass-through terms and conditions (“Third Party Terms”) for the particular Third Party Component will be bundled with the software or otherwise made available online as indicated by NVIDIA and will be incorporated by reference into this Agreement. In the event of any conflict between the terms in this Agreement and the Third Party Terms, the Third Party Terms shall govern. Copyright to Third Party Components are held by the copyright holders indicated in the copyright notices indicated in the Third Party Terms.
+Audio/Video Encoders and Decoders. You acknowledge and agree that it is your sole responsibility to obtain any additional third party licenses required to make, have made, use, have used, sell, import, and offer for sale your products or services that include or incorporate any Third Party Components and content relating to audio and/or video encoders and decoders from, including but not limited to, Microsoft, Thomson, Fraunhofer IIS, Sisvel S.p.A., MPEG-LA, and Coding Technologies as NVIDIA does not grant to you under this Agreement any necessary patent rights with respect to audio and/or video encoders and decoders.
+
+2.3 Limited Rights. Your rights in the Licensed Software are limited to those expressly granted in Section 1 and no other licenses are granted whether by implication, estoppel or otherwise. NVIDIA reserves all other rights, title and interest in and to the Licensed Software not expressly granted to you under this Agreement.
+
+
+3. CONFIDENTIALITY.
+
+Each party will not use the other party’s Confidential Information, except as necessary for the performance of this Agreement, and will not disclose such Confidential Information to any third party, except to NVIDIA personnel, you, your Enterprise and your Enterprise Contractors that have a need to know such Confidential Information for the performance of this Agreement, provided that each such personnel, employee and Contractor is subject to a written agreement that includes confidentiality obligations consistent with those set forth herein. Each party will use all reasonable efforts to maintain the confidentiality of all of the other party’s Confidential Information in its possession or control, but in no event less than the efforts that it ordinarily uses with respect to its own Confidential Information of similar nature and importance. The foregoing obligations will not restrict either party from disclosing the other party’s Confidential Information or the terms and conditions of this Agreement as required under applicable securities regulations or pursuant to the order or requirement of a court, administrative agency, or other governmental body, provided that the party required to make such a disclosure (i) gives reasonable notice to the other party to enable it to contest such order or requirement prior to its disclosure (whether through protective orders or otherwise), (ii) uses reasonable effort to obtain confidential treatment or similar protection to the fullest extent possible to avoid public disclosure, and (iii) discloses only the minimum amount of information necessary to comply with such requirements.
+
+“Confidential Information” means the Licensed Software (unless made publicly available by NVIDIA without confidentiality obligations), and any NVIDIA business, marketing, pricing, research and development, know-how, technical, scientific, financial status, proposed new products or other information disclosed by NVIDIA to you which, at the time of disclosure, is designated in writing as confidential or proprietary (or like written designation), or orally identified as confidential or proprietary or is otherwise reasonably identifiable by parties exercising reasonable business judgment as confidential. Confidential Information does not and will not include information that: (i) is or becomes generally known to the public through no fault of or breach of this Agreement by the receiving party; (ii) is rightfully known by the receiving party at the time of disclosure without an obligation of confidentiality; (iii) is independently developed by the receiving party without use of the disclosing party’s Confidential Information; or (iv) is rightfully obtained by the receiving party from a third party without restriction on use or disclosure.
+
+4. OWNERSHIP AND FEEDBACK.
+
+4.1 Ownership of Licensed Software. The Licensed Software, and the respective intellectual property rights therein, is and will remain the sole and exclusive property of NVIDIA and its licensors, whether the Licensed Software is separate from or combined with any other products or materials. You shall not knowingly engage in any act or omission that would impair NVIDIA’s and/or its licensors’ intellectual property rights in the Licensed Software or any other materials, information, processes or subject matter proprietary to NVIDIA. NVIDIA’s licensors are intended third party beneficiaries with the right to enforce provisions of this Agreement with respect to their Confidential Information and/or intellectual property rights.
+
+4.2 Modifications. You hold all rights, title and interest in and to the modifications to and derivative works of the NVIDIA sample source code software that you create as permitted hereunder, subject to NVIDIA’s underlying intellectual property rights in and to the NVIDIA software; provided, however that you grant NVIDIA and its affiliates an irrevocable, perpetual, nonexclusive, worldwide, royalty-free paid-up license to make, have made, use, have used, reproduce, sell, license, distribute, sublicense, transfer and otherwise commercialize modifications and derivative works including (without limitation) with the Licensed Software or other NVIDIA products, technologies or materials.
+
+4.3 Feedback. You have no obligation to provide Feedback to NVIDIA. However, NVIDIA and its affiliates may use and include any Feedback that you provide to improve the Licensed Software or other NVIDIA products, technologies or materials. Accordingly, if you provide Feedback, you agree that NVIDIA and its affiliates may at their option, and may permit its licensees, to make, have made, use, have used, reproduce, sell, license, distribute, sublicense, transfer and otherwise commercialize the Feedback in the Licensed Software or in other products, technologies or materials without the payment of any royalties or fees to you. All Feedback becomes the sole property of NVIDIA and may be used in any manner NVIDIA sees fit, and you hereby assign to NVIDIA all of your right, title and interest in and to any Feedback. NVIDIA has no obligation to respond to Feedback or to incorporate Feedback into the Licensed Software. “Feedback” means any and all suggestions, feature requests, comments or other feedback relating to the Licensed Software, including possible enhancements or modifications thereto.
+
+5. NO WARRANTIES. THE LICENSED SOFTWARE IS PROVIDED BY NVIDIA “AS IS” AND “WITH ALL FAULTS,” AND NVIDIA EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND OR NATURE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF OPERABILITY, CONDITION, VALUE, ACCURACY OF DATA, OR QUALITY, AS WELL AS ANY WARRANTIES OF MERCHANTABILITY, SYSTEM INTEGRATION, WORKMANSHIP, SUITABILITY, NON-INGRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, OR THE ABSENCE OF ANY DEFECTS THEREIN, WHETHER LATENT OR PATENT. NO WARRANTY IS MADE BY NVIDIA ON THE BASIS OF TRADE USAGE, COURSE OF DEALING OR COURSE OF TRADE. NVIDIA DOES NOT WARRANT THAT THE LICENSED SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION THEREOF WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ALL ERRORS WILL BE CORRECTED. YOU ACKNOWLEDGE THAT NVIDIA’S OBLIGATIONS UNDER THIS AGREEMENT ARE FOR THE BENEFIT OF YOU ONLY. Nothing in this warranty section affects any statutory rights of consumers or other customers to the extent that they cannot be waived or limited by contract.
+
+6. LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY LAW NVIDIA SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES (SUCH AS, WITHOUT LIMITATION, LOST PROFITS, LOSS OF USE, LOSS OF DATA OR LOSS OF GOODWILL), OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PERFORMANCE OF THE LICENSED SOFTWARE, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL NVIDIA’S TOTAL CUMULATIVE LIABILITY UNDER OR ARISING OUT OF THIS AGREEMENT EXCEED THE GREATER OF THE NET AMOUNT NVIDIA RECEIVED FOR YOUR USE OF THE LICENSED SOFTWARE ONE HUNDRED U.S. DOLLARS (US $100). THE NATURE OF THE LIABILITY, THE NUMBER OF CLAIMS OR SUITS OR THE NUMBER OF PARTIES WITHIN YOUR ENTERPRISE THAT ACCEPTED THE TERMS OF THIS AGREEMENT SHALL NOT ENLARGE OR EXTEND THIS LIMIT. THE FOREGOING LIMITATIONS SHALL APPLY REGARDLESS OF WHETHER NVIDIA OR ITS LICENSORS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS ITS ESSENTIAL PURPOSE.
+
+7. TERM AND TERMINATION. This Agreement and your licenses hereunder shall become effective upon the Effective Date and shall remain in effect unless and until terminated as follows: (i) automatically if you breach any of the terms of this Agreement; or (ii) by either party upon written notice if the other party becomes the subject of a voluntary or involuntary petition in bankruptcy or any proceeding relating to insolvency, receivership, liquidation or composition for the benefit of creditors, if that petition or proceeding is not dismissed with prejudice within sixty (60) days after filing, or if a party ceases to do business; (iii) by you, upon ceasing to use the Licensed Software provided under this Agreement; or (iv) by NVIDIA upon written notice if you commence or participate in any legal proceeding against NVIDIA, with respect to the Licensed Software that is the subject of the proceeding during the pendency of such legal proceeding. Termination of this Agreement shall not release the parties from any liability which, at the time of termination, has already accrued or which thereafter may accrue with respect to any act or omission before termination, or from any obligation which is expressly stated in this Agreement to survive termination. Notwithstanding the foregoing, the party terminating this Agreement shall incur no additional liability merely by virtue of such termination. Termination of this Agreement regardless of cause or nature shall be without prejudice to any other rights or remedies of the parties and shall be without liability for any loss or damage occasioned thereby. Upon any expiration or termination of this Agreement (i) you must promptly discontinue use of the Licensed Software, and (ii) you must promptly destroy or return to NVIDIA all copies of the Licensed Software and all portions thereof in your possession or control, and each party will promptly destroy or return to the other all of the other party’s Confidential Information within its possession or control, provided that your prior distributions in accordance with this Agreement are not affected by the expiration or termination of this Agreement. Upon written request, you will certify in writing that you have complied with your obligations under this section. Sections 2 through 8 will survive the expiration or termination of this Agreement for any reason.
+
+8. MISCELLANEOUS.
+
+8.1 NVIDIA Entities. NVIDIA Corporation and its subsidiaries, including, but not limited to, NVIDIA Singapore Pte Ltd., have agreed to their respective rights and obligations regarding the distribution of the Licensed Software and the performance of obligations related to the Licensed Software. Ordering and delivery shall be with the NVIDIA entity with distribution rights for the geographic region in which the Licensed Software will be used, as communicated by NVIDIA to you.
+
+8.2 Audit. During the term of this Agreement and for a period of three (3) years thereafter, you will maintain complete and accurate books and records regarding use of the Licensed Software and your performance and administration of this Agreement. During such period and upon written notice to you, NVIDIA or its authorized third party auditors subject to confidentiality obligations will have the right to inspect and audit your Enterprise books and records for the purpose of confirming your compliance with the terms of this Agreement. Any such inspection and audit will be conducted during regular business hours, in a manner that minimizes interference with your normal business activities, and no more frequent than annually unless non-compliance was previously found. If such an inspection and audit reveals an underpayment of any amounts payable to NVIDIA, then you will promptly remit the full amount of such underpayment to NVIDIA, including interest that will accrue (without the requirement of a notice) at the lower of 1.5% per month or the highest rate permissible by law. If the underpaid amount exceeds five percent (5%) of the amounts payable to NVIDIA for the period audited and/or such an inspection and audit reveals a material non-conformance with the terms of this Agreement, then you will also pay NVIDIA’s reasonable costs of conducting the inspection and audit. Further, you agree that the party delivering the Licensed Software to you may collect and disclose to NVIDIA (subject to confidentiality obligations) information for NVIDIA to verify your compliance with the terms of this Agreement including (without limitation) information regarding your usage of the Licensed Software.
+
+8.3 Trademarks. You are granted no rights to use any of NVIDIA's trademarks under this Agreement. NVIDIA's trademarks include company names, product or service names, marks, logos, designs and trade dress. You may not remove, alter, or add to any of NVIDIA's trademarks that appear in or as part of the Licensed Software.
+
+8.4 Indemnity. You agree to defend, indemnify and hold harmless NVIDIA and its affiliates, and their respective employees, contractors, agents, officers and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, fines, restitutions and expenses (including but not limited to attorney’s fees and costs incident to establishing the right of indemnification) arising out of or related to you and your Enterprise, and their respective employees, contractors, agents, officers and directors: (i) use of a Licensed Software with any system or application where the use or failure of such system or application can reasonably be expected to threaten or result in personal injury, death, or catastrophic loss including, for example, use in connection with any nuclear, avionics, navigation, military, medical, life support or other life critical application; (ii) violation of any third party right, including without limitation any right of privacy or intellectual property rights; (iii) failure to comply with any applicable export and import laws, rules or regulations; or (iv) negligence or willful misconduct.
+
+8.5 Injunctive Relief. The parties agree that a breach of any of the promises or agreements contained in this Agreement may result in irreparable and continuing injury for which monetary damages would not be an adequate remedy and therefore the parties are entitled to seek injunctive relief as well as such other and further relief as may be appropriate.
+
+8.6 Waiver. The failure by either party to enforce its rights under this Agreement at any time for any period will not constitute a waiver of future enforcement of that right or any other right. Any waiver will be effective only if in writing and signed by duly authorized representatives of each party.
+
+8.7 Severability. If for any reason a court of competent jurisdiction finds any provision of this Agreement invalid or unenforceable, that provision of this Agreement will be enforced to the maximum extent permissible so as to effect the intent of the parties, and the other provisions of this Agreement will remain in full force and effect.
+
+8.8 U.S. Government Legend. You agree and certify that you will comply with all laws, regulations, rules, and other requirements applicable to transaction(s) with any government(s) occurring pursuant to this Agreement and all related matters. The Licensed Software has been developed entirely at private expense and is “commercial items” consisting of “commercial software” and “commercial software documentation” provided with RESTRICTED RIGHTS. Use, duplication or disclosure by the U.S. Government or a U.S. Government subcontractor is subject to the restrictions set forth in this Agreement under which Licensed Software was obtained pursuant to DFARS 227.7202-3(a) or as set forth in subparagraphs (c)(1) and (2) of the Commercial Computer Software - Restricted Rights clause at FAR 52.227-19, as applicable. Contractor/manufacturer is NVIDIA, 2701 San Tomas Expressway, Santa Clara, CA 95050.
+
+8.9 Force Majeure. Neither party will be responsible for any failure or delay in its performance under this Agreement to the extent due to causes beyond its reasonable control, including, but not limited to, acts of God, fire, flood, war, earthquake, environmental conditions, governmental action, acts of civil or military authority, riots, wars, sabotage, strikes, compliance with laws or regulations, strikes, lockouts or other serious labor disputes, or shortage of or inability to obtain material or equipment for so long as such event of force majeure continues in effect.
+
+8.10 Export Control. You acknowledge that the Licensed Software, technology and related documentation described under this Agreement are subject to the U.S. Export Administration Regulations (EAR) and economic sanctions regulations administered by the U.S. Department of Treasury’s Office of Foreign Assets Control (OFAC). You agree to comply with the EAR and OFAC regulations and all applicable international and national export and import laws. You agree not to export or re-export the Licensed Software, technology and related documentation to any destination requiring an export license or other approval under the EAR or OFAC regulations otherwise without first obtaining such export license or approval and NVIDIA’s permission. You will not, without prior governmental authorization, export or re-export NVIDIA Licensed Software, technology and related documentation, directly or indirectly, (i) to any end-user whom you know or have reason to know will utilize them in the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, and sounding rockets, or unmanned air vehicle systems; (ii) to any end-user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or (iii) to any countries that are subject to U.S. export restrictions (currently including, but not necessarily limited to, Cuba, Iran, North Korea, Sudan, and Syria and the Region of Crimea).
+
+8.11 General. This Agreement constitutes the entire agreement of the parties with respect to the subject matter hereto and supersede all prior negotiations, conversations, or discussions between the parties relating to the subject matter hereto, oral or written, and all past dealing or industry custom. Any notice delivered by NVIDIA to you under this Agreement will be delivered via mail, email or fax. Any additional and/or conflicting terms and conditions on purchase order(s) or any other documents issued by you are null, void, and invalid. This Agreement and the rights and obligations hereunder may not be assigned by you, in whole or in part, including by merger, consolidation, dissolution, operation of law, or any other manner, without written consent of NVIDIA, and any purported assignment in violation of this provision shall be void and of no effect. Each party acknowledges and agrees that the other is an independent contractor in the performance of this Agreement, and each is solely responsible for all of its employees, agents, contractors, and labor costs and expenses arising in connection therewith. This Agreement will be governed by and construed under the laws of the State of Delaware and the United States without regard to the conflicts of law provisions thereof and without regard to the United Nations Convention on Contracts for the International Sale of Goods. The parties consent to the personal jurisdiction of the federal and state courts located in Santa Clara County, California. If one or more provisions of this Agreement are held to be unenforceable under applicable law, such provision shall be excluded from this Agreement and the balance of this Agreement shall be interpreted as if such provision were so excluded and shall be enforceable in accordance with its terms. Any amendment or waiver under this Agreement must be in writing and signed by representatives of both parties.
+
+--- end ---
+
+*********************************************
+Portions related to Microsoft's DirectX EULA ( used in xNormal's installer, 3D viewer as well as for some internal computations )
+
+--- begin ---
+
+MICROSOFT SOFTWARE LICENSE TERMS
+MICROSOFT DIRECTX END USER RUNTIME
+
+These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you.  Please read them.  They apply to the software named above, which includes the media on which you received it, if any.  The terms also apply to any Microsoft
+
+* updates,
+* supplements,
+* Internet-based services, and 
+* support services
+
+for this software, unless other terms accompany those items.  If so, those terms apply.
+
+BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.  IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE.
+
+If you comply with these license terms, you have the rights below.
+
+1. INSTALLATION AND USE RIGHTS.  You may install and use any number of copies of the software on your devices.
+
+2. SCOPE OF LICENSE.  The software is licensed, not sold. This agreement only gives you some rights to use the software.  Microsoft reserves all other rights.  Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement.  In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may NOT
+
+* work around any technical limitations in the software;
+
+* reverse engineer, decompile or disassemble the software, except and only to the extent that applicable law expressly permits, despite this limitation;
+
+* make more copies of the software than specified in this agreement or allowed by applicable law, despite this limitation;
+
+* publish the software for others to copy;
+
+* rent, lease or lend the software;
+
+* transfer the software or this agreement to any third party; or
+
+* use the software for commercial software hosting services.
+
+
+3. BACKUP COPY.  You may make one backup copy of the software. You may use it only to reinstall the software.
+
+4. DOCUMENTATION.  Any person that has valid access to your computer or internal network may copy and use the documentation for your internal, reference purposes.
+
+5. EXPORT RESTRICTIONS.  The software is subject to United States export laws and regulations.  You must comply with all domestic and international export laws and regulations that apply to the software.  These laws include restrictions on destinations, end users and end use.  For additional information, see www.microsoft.com/exporting <file:///C:/Programacion1297tj/Bin/xNormal/docs/www.microsoft.com/exporting>.
+
+6. SUPPORT SERVICES. Because this software is “as is,” we may not provide support services for it.
+
+7. ENTIRE AGREEMENT.  This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.
+
+8. APPLICABLE LAW.
+
+a) United States.  If you acquired the software in the United States, Washington state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles.  The laws of the state where you live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort.
+
+b) Outside the United States.  If you acquired the software in any other country, the laws of that country apply.
+
+9. LEGAL EFFECT.  This agreement describes certain legal rights.  You may have other rights under the laws of your country.  You may also have rights with respect to the party from whom you acquired the software.  This agreement does not change your rights under the laws of your country if the laws of your country do not permit it to do so.
+
+10. DISCLAIMER OF WARRANTY.   THE SOFTWARE IS LICENSED “AS-IS.”  YOU BEAR THE RISK OF USING IT.  MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES OR CONDITIONS.  YOU MAY HAVE ADDITIONAL CONSUMER RIGHTS UNDER YOUR LOCAL LAWS WHICH THIS AGREEMENT CANNOT CHANGE.  TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+11. LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES.  YOU CAN RECOVER FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. $5.00.  YOU CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.
+This limitation applies to
+
+* anything related to the software, services, content (including code) on third party Internet sites, or third party programs; and
+
+* claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.
+
+It also applies even if Microsoft knew or should have known about the possibility of the damages.  The above limitation or exclusion may not apply to you because your country may not allow the exclusion or limitation of incidental, consequential or other damages.
+
+--- end ---
+
+*********************************************
+Portions related to NSIS ( which is used in the xNormal's installer ):
+
+-– begin —
+
+Copyright (C) 1999-2016 Contributors
+
+More detailed copyright information can be found in the individual source code files.
+
+APPLICABLE LICENSES
+-------------------
+
+* All NSIS source code, plug-ins, documentation, examples, header files and graphics, with the exception of the compression modules and where otherwise noted, are licensed under the zlib/libpng license.
+
+* The zlib compression module for NSIS is licensed under the zlib/libpng license.
+
+* The bzip2 compression module for NSIS is licensed under the bzip2 license.
+
+* The LZMA compression module for NSIS is licensed under the Common Public License version 1.0.
+
+ZLIB/LIBPNG LICENSE
+-------------------
+
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+BZIP2 LICENSE
+-------------
+
+This program, "bzip2" and associated library "libbzip2", are copyright (C) 1996-2000 Julian R Seward. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+3. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+4. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Julian Seward, Cambridge, UK.
+
+jseward@acm.org
+
+COMMON PUBLIC LICENSE VERSION 1.0
+---------------------------------
+
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS COMMON PUBLIC LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+
+1. DEFINITIONS
+
+"Contribution" means:
+
+a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and
+b) in the case of each subsequent Contributor:
+
+i) changes to the Program, and
+ii) additions to the Program;
+
+where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution 'originates' from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program. 
+
+"Contributor" means any person or entity that distributes the Program.
+
+"Licensed Patents " mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+
+"Program" means the Contributions distributed in accordance with this Agreement.
+
+"Recipient" means anyone who receives the Program under this Agreement, including all Contributors.
+
+2. GRANT OF RIGHTS
+
+a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.
+
+b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder. 
+
+c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or other intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole responsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
+
+d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement. 
+
+3. REQUIREMENTS
+
+A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
+
+a) it complies with the terms and conditions of this Agreement; and
+
+b) its license agreement:
+
+i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, including warranties or conditions of title and non-infringement, and implied warranties or conditions of merchantability and fitness for a particular purpose; 
+
+ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits; 
+
+iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and
+
+iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange. 
+
+When the Program is made available in source code form:
+
+a) it must be made available under this Agreement; and 
+
+b) a copy of this Agreement must be included with each copy of the Program. 
+
+Contributors may not remove or alter any copyright notices contained within the Program.
+
+Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
+
+4. COMMERCIAL DISTRIBUTION
+
+Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and indemnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collectively "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+
+For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+
+5. NO WARRANTY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+
+6. DISCLAIMER OF LIABILITY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. GENERAL
+
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.
+
+If Recipient institutes patent litigation against a Contributor with respect to a patent applicable to software (including a cross-claim or counterclaim in a lawsuit), then any patent licenses granted by that Contributor to such Recipient under this Agreement shall terminate as of the date such litigation is filed. In addition, if Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+
+All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and survive.
+
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. IBM is the initial Agreement Steward. IBM may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing version number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Contributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+
+This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation. 
+
+SPECIAL EXCEPTION FOR LZMA COMPRESSION MODULE
+---------------------------------------------
+
+Igor Pavlov and Amir Szekely, the authors of the LZMA compression module for NSIS, expressly permit you to statically or dynamically link your code (or bind by name) to the files from the LZMA compression module for NSIS without subjecting your linked code to the terms of the Common Public license version 1.0. Any modifications or additions to files from the LZMA compression module for NSIS, however, are subject to the terms of the Common Public License version 1.0.
+
+— end —
+
+*********************************************
+Portions related to NSIS’s Modern UI ( used in the xNormal’s installer ):
+
+--- begin —
+Copyright © 2002-2016 Joost Verburg
+
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any distribution.
+
+— end —
+
+*********************************************
+Portions related to OpenRL ( which is used in the xNormal's OpenRL map renderer plug-in )
+
+--- begin ---
+
+OPENRL RUNTIME END USER LICENSE AGREEMENT
+
+This License Agreement (the “Agreement”) is between You and Caustic Graphics Inc. (“Caustic”) and governs Your use of the OpenRL runtime software, related software components, and documentation (all of which are referred to herein as the "OpenRL Runtime Software").
+
+READ THIS AGREEMENT CAREFULLY.
+
+BY CHECKING THE "I accept the terms of the License Agreement" BOX OR INSTALLING OR USING ALL OR ANY PORTION OF THE OPENRL RUNTIME SOFTWARE, YOU ARE ACCEPTING ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT. YOU AGREE THAT THIS AGREEMENT IS ENFORCEABLE LIKE ANY WRITTEN NEGOTIATED AGREEMENT SIGNED BY YOU.
+
+IF YOU DO NOT AGREE TO ALL OF THESE TERMS AND CONDITIONS, CLICK "Cancel". YOU WILL NOT BE GIVEN ACCESS TO THE SOFTWARE UNLESS YOU ACCEPT THE TERMS OF THIS AGREEMENT. IF YOU HAVE PAID A LICENSE FEE FOR USE OF THE SOFTWARE AND DO NOT AGREE TO THESE TERMS, YOU MUST RETURN THE OPENRL RUNTIME SOFTWARE.
+
+IF YOU WISH TO USE THE OPENRL RUNTIME SOFTWARE AS AN EMPLOYEE, CONTRACTOR, OR AGENT OF A CORPORATION, PARTNERSHIP OR SIMILAR ENTITY, THEN YOU MUST BE AUTHORIZED TO SIGN FOR AND BIND THE ENTITY IN ORDER TO ACCEPT THE TERMS OF THIS AGREEMENT. THE LICENSE GRANTED UNDER THIS AGREEMENT ARE EXPRESSLY CONDITIONED UPON ACCEPTANCE BY SUCH AUTHORIZED PERSONNEL.
+
+Grant of License.  Subject to all of the terms and conditions of this Agreement including the limitations set forth in the “Restrictions on Use” paragraph below, Caustic hereby grants to You, and You accept a non-exclusive, non-transferable, royalty-free, worldwide, non-assignable license under all of Caustic’s intellectual property rights to install, deploy, use, make, execute, reproduce, display, perform, and run the OpenRL Runtime Software, in object code form solely for your own internal use.
+
+Restrictions on Use. The OpenRL Runtime Software may not be sold, traded, bartered or otherwise exchanged in return for receipt of anything of value.   You may NOT:  grant a sublicense for all or any part of the OpenRL Runtime Software; copy, transfer, assign, rent, resell, distribute or use the OpenRL Runtime Software other than as expressly authorized in this Agreement; use the OpenRL Runtime Software in conjunction with any other software, data or equipment in such a manner as would cause the resulting product to infringe upon any intellectual property rights of third parties; remove the Caustic or other third party copyright, patent or other intellectual property protection notices or any references to Caustic’s name or other third parties name, which may be displayed or embedded in the OpenRL Runtime Software; decompile, disassemble or reverse engineer the OpenRL Runtime Software or otherwise attempt to discover the source code  or underlying ideas, methods, concepts or algorithms contained in the OpenRL Runtime Software;  disclose the results of any performance or quality benchmark tests of the OpenRL Runtime Software to any third party; publish any reviews of the OpenRL Runtime Software without express written consent of Caustic;   use the OpenRL Runtime Software to provide server-based rendering or other services to commercial and non-commercial customers; receive compensation from others for copies or modified copies of the OpenRL Runtime Software; host, or offer to host, the OpenRL Runtime Software, on any basis; receive compensation for any service that uses the OpenRL Runtime Software, including support services. You will not allow any third party to do any of the above. 
+
+Ownership.  Your rights in and to the OpenRL Runtime Software are solely set forth above and do not include any rights of ownership. You acknowledge and agree that Caustic or its licensors owns all right, title and interest (including, but not limited to, ideas, know-how, copyright, patent, trademark, trade secret and other intellectual property rights) in and to the OpenRL Runtime Software.
+
+Your Representations. You represent and warrant that: 
+(a) all of the information provided by you to Caustic to use the OpenRL Runtime Software is correct and current; and
+(b) you have all necessary right, power and authority to enter into this Agreement and to perform the acts required of you hereunder.
+
+No Warranty. THE OPENRL RUNTIME SOFTWARE IS PROVIDED “AS IS”.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CAUSTIC AND ITS LICENSORS DISCLAIM ALL REPRESENTATIONS, WARRANTIES, TERMS AND CONDITIONS, WHETHER EXPRESS OR IMPLIED, REGARDING THE OPENRL RUNTIME SOFTWARE, RELATED DOCUMENTATION OR INFORMATION, AND OTHER MATERIALS AND SERVICES, AND SPECIFICALLY DISCLAIM THE IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, MERCHANTABLE QUALITY, NON-INFRINGEMENT AND THOSE ARISING FROM COURSE OF PERFORMANCE, DEALING, USAGE OR TRADE.  Caustic does not warrant that the functions contained in the OpenRL Runtime Software or in any update will meet your requirements or that the operation of the OpenRL Runtime Software will be uninterrupted or error free.  Some jurisdictions do not allow the exclusion of certain warranties in certain circumstances.  Accordingly some limitations set forth above may not apply. Caustic does not warrant that it will continue to offer the OpenRL Runtime Software to developers.  Caustic reserves the right to offer similar or identical software under separate license terms. 
+
+Limitation of Liability. IN NO EVENT WILL CAUSTIC’S OR ITS SUPPLIERS BE LIABLE TO YOU FOR ANY DIRECT, GENERAL, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, CONSEQUENTIAL, OR OTHER DAMAGES WHATSOEVER, OR ANY LOSS OF REVENUE, DATA, USE, OR PROFITS, EVEN IF A CAUSTIC GRAPHICS REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND REGARDLESS OF WHETHER THE CLAIM IS BASED UPON ANY CONTRACT, TORT OR OTHER LEGAL OR EQUITABLE THEORY.  Some States do not allow the exclusion or limitation of incidental or consequential damages, or the exclusion of implied warranties or limitations on how long an implied warranty lasts, so the above limitations or exclusions may not apply to you.  In no event shall Caustic’s aggregate liability to you or any third party exceed the lesser of the license fees paid by You for OpenRL Runtime or US$10.
+
+Term and Termination. Either Caustic or You may terminate this Agreement and the license grant at any time. This Agreement and the license grant shall terminate automatically, without notice if You fail to comply with the terms of this Agreement.  Upon any expiration or termination of this Agreement for any reason, Your license grant automatically terminates and You must discontinue use of the OpenRL Runtime Software and uninstall and destroy all copies of the OpenRL Runtime Software you have obtained or made.  The following provisions shall survive the termination or expiration of this Agreement: Restrictions on Use; No Warranty; Limitation on Liability; Term and Termination and General Provisions. 
+
+General Provisions. 
+
+Governing Law.  This Agreement will be governed by the laws of the United States and the State of California, excluding the application of its conflicts of law rules.  You consent to the personal and exclusive jurisdiction and venue of the state and federal courts located in San Francisco, California, USA.
+
+Government End Users.  The OpenRL Runtime Software and accompanying documentation are provided with restricted rights.  Use, duplication, or disclosure by the U.S. Government is subject to the restrictions as set forth in subparagraph (c)(1)(iii) of DFARS 252.227-7013 (The Rights in Technical Data and Computer Software) or subparagraphs(c)(1) and (2) of 48 CFR 52.227-19 (the Commercial Computer Software Restricted Rights), as applicable.  The manufacturer is Caustic Graphics, Inc.
+
+Export Controls.  None of the OpenRL Runtime Software or underlying information or technology may be downloaded or otherwise exported or re-exported (i) into (or to a national or resident of) Cuba, Iraq, Libya, North Korea, Iran, Syria or any other country to which the U.S. has embargoed goods; or (ii) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Commerce Department's Table of Denial Orders. By downloading or using the OpenRL Runtime Software, you agree to the foregoing and you represent and warrant that you are not located in, under the control of, or a national or resident of any such country or on any such list.
+
+General.  This Agreement constitutes the entire agreement between You and Caustic Graphics and governs Your use of the OpenRL Runtime Software, superseding any prior agreements between You and Caustic, except for any non-disclosure agreement(s) that You may have entered into with Caustic.  You acknowledge that in entering into this Agreement; you have not relied on any statement, representation, assurance or warranty of any person other than as expressly set out in this Agreement.  If any provision of this Agreement is held by a court of competent jurisdiction to be contrary to law, such provision will be changed and interpreted so as to best accomplish the objectives of the original provision to the fullest extent allowed by law and the remaining provisions of this Agreement will remain in full force and effect.    You may not assign this Agreement, and any assignment of this Agreement by You will be null and void.
+
+Contact Information. If you have any questions about this Agreement, please contact us at legal@caustic.com.  If you have any questions about licensing that aren't answered on our website, please contact us at licensing@caustic.com.
+
+SCHEDULE A : Appendix A: Third Party Licenses 
+LLVM is released under the University of Illinois/NCSA Open Source License 
+University of Illinois/NCSA 
+Open Source License
+Copyright (c) 2003-2011 University of Illinois at Urbana-Champaign. All rights reserved. 
+
+Developed by: LLVM Team 
+			  University of Illinois at Urbana-Champaign 
+			  <http://llvm.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+ ·0	Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.
+
+ ·1	Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.
+
+ ·2	Neither the names of LLVM Team, University of Illinois at Urbana-Champaign, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+
+ 
+Pthreads-win32 is covered under the GNU Lesser General Public License
+Pthreads-win32 - POSIX Threads Library for Win32
+Copyright(C) 1998 John E. Bossom
+Copyright(C) 1999,2006 Pthreads-win32 contributors
+The current source code, compiled libraries, and list of contributors is contained at the following location: <http://sourceware.org/pthreads-win32>
+
+Pthreads-win32 is covered under the GNU Lesser General Public License. <http://sourceware.org/pthreads-win32/copying.lib.html>
+
+--- end ---
+
+*********************************************
+Portions of OpenGL ( which is used in the xNormal's 3D viewer and internally for some computations )
+
+--- begin ---
+
+OpenGL® and the oval logo are trademarks or registered trademarks of Silicon Graphics, Inc. in the United States and/or other countries worldwide.
+
+Khronos, OpenKODE, OpenKOGS, OpenVG, OpenMAX, OpenSL ES and OpenWF are trademarks of the Khronos Group Inc. COLLADA is a trademark of Sony Computer Entertainment Inc. used by permission by Khronos. OpenGL and OpenML are registered trademarks and the OpenGL ES logo is a trademark of Silicon Graphics Inc. used by permission by Khronos. All other product names, trademarks, and/or company names are used solely for identification and belong to their respective owners.
+
+--- end ---
