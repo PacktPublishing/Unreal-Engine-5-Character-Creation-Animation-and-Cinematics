@@ -51,3 +51,7 @@ is a Senior 3D Character Artist with 22 years of experience in the 3D computer g
 has 24 years of experience in the 3D computer graphics industry and has worked as a Character Animator and Lead Animator for several UK game studios. Raven Software, Deep Silver, Travelers Tales Fusion, Eurocom Entertainment Software, Instinct Games, Entrada Interactive, and Headfirst Productions are among the studios for which he has worked on-site and as a contractor. Throughout his career, he has worked on a variety of interesting projects, including Call of Duty: Black Ops III (2015), Call of Duty: infinite Warfare (2015), Homefront: The Revolution (2016), Deadspace Extraction, Miscreated, LEGO Movie Videogame, LEGO Legends of Chima, LEGO Lord of the Rings, LEGO City Undercover, Rio (Blue Sky Studios) Game, GoldenEye 007, Vancouver 2010 - Official Video Game of the Olympic Winter Games, James Bond: Quantum of Solace, The Mummy 3: Tomb of the Dragon Emperor, Pirates of the Caribbean: At World's End, Call of Cthulhu: Dark Corners of the Earth and other unpublished projects.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801812443">https://packt.link/free-ebook/9781801812443 </a> </p>
